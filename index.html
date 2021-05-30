@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div id="stage1">
+            <h1>یک عدد را به عنوان حد بالا انتخاب کنید</h1>
+            <input type="text" name="maxi" id="maximum">
+            <button type="button" id="start">شروع کنید</button>
+        </div>
+        <div id="stage2" class="hidden">
+            <p class="fir">شما <span class="chances">0</span> بار فرصت دارید</p>
+            <input type="text" name="maxi" id="guess-number">
+            <button type="button" id="guess-button">حدس بزن</button>
+            <p class="matn">حدسهای شما :</p>
+            <p class="status"></p>
+        </div>
+    </div>
+    <script src="./scrpt.js"></script>
+</body>
+</html>
